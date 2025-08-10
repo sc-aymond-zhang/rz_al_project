@@ -1,0 +1,166 @@
+# edges: Source Target Weight Direction
+Diabetes Hypertension 0.6 dir
+Hypertension Stroke 0.7 dir
+Obesity Diabetes 0.5 dir
+Obesity Sleep_Apnea 0.4 dir
+Sleep_Apnea Hypertension 0.3 dir
+Smoking Lung_Cancer 0.8 dir
+Smoking Chronic_Bronchitis 0.7 dir
+Lung_Cancer Mortality 0.9 dir
+Chronic_Bronchitis Mortality 0.6 dir
+Hypertension Heart_Failure 0.4 dir
+Heart_Failure Mortality 0.5 dir
+Obesity Osteoarthritis 0.3 dir
+Osteoarthritis Disability 0.2 dir
+Stroke Disability 0.5 dir
+Hypertension Kidney_Disease 0.3 dir
+Kidney_Disease Mortality 0.4 dir
+Diabetes Kidney_Disease 0.5 dir
+Anxiety Depression 0.6 dir
+Depression Insomnia 0.5 dir
+Insomnia Fatigue 0.4 dir
+Asthma Cough 0.7 dir
+COPD Shortness_of_Breath 0.8 dir
+High_Cholesterol Heart_Failure 0.3 dir
+Anemia Fatigue 0.6 dir
+Chest_Pain Anxiety 0.2 dir
+Shortness_of_Breath Dizziness 0.5 dir
+Nausea Vomiting 0.7 dir
+Vomiting Dehydration 0.6 dir
+Fever Fatigue 0.4 dir
+Cough Wheezing 0.3 dir
+Wheezing Asthma 0.5 dir
+Seizures Confusion 0.7 dir
+Migraine Nausea 0.6 dir
+Back_Pain Insomnia 0.3 dir
+Joint_Pain Disability 0.4 dir
+Insomnia Depression 0.5 dir
+Dizziness Confusion 0.6 dir
+Palpitations Anxiety 0.7 dir
+Weight_Loss Fatigue 0.5 dir
+Weight_Gain Obesity 0.8 dir
+Swelling Edema 0.4 dir
+Blurred_Vision Diabetes 0.3 dir
+Confusion Mortality 0.5 dir
+Tremors Parkinsons 0.6 dir
+Rash Itching 0.7 dir
+Itching Allergy 0.8 dir
+Hair_Loss Depression 0.3 dir
+Hearing_Loss Aging 0.4 dir
+Constipation Abdominal_Pain 0.5 dir
+Urinary_Incontinence Aging 0.6 dir
+Edema Heart_Failure 0.7 dir
+Muscle_Weakness Fatigue 0.5 dir
+Obesity Heart_Failure 0.4 dir
+Smoking Stroke 0.6 dir
+Depression Suicide_Risk 0.9 dir
+Suicide_Risk Mortality 0.9 dir
+Fatigue Poor_Concentration 0.5 dir
+Shortness_of_Breath Chest_Pain 0.6 dir
+Hypertension Vision_Loss 0.3 dir
+Diabetes Vision_Loss 0.4 dir
+Vision_Loss Disability 0.5 dir
+Migraine Vision_Loss 0.2 dir
+Joint_Pain Limited_Mobility 0.6 dir
+Limited_Mobility Obesity 0.4 dir
+Parkinsons Tremors 0.8 dir
+COPD Chronic_Bronchitis 0.6 dir
+Asthma Allergies 0.5 dir
+Allergies Itching 0.7 dir
+Fever Seizures 0.4 dir
+Edema Kidney_Disease 0.5 dir
+Kidney_Disease Fatigue 0.6 dir
+Hair_Loss Autoimmune_Disease 0.5 dir
+Autoimmune_Disease Fatigue 0.7 dir
+Muscle_Weakness Autoimmune_Disease 0.4 dir
+Anemia Dizziness 0.5 dir
+Depression Isolation 0.6 dir
+Isolation Mortality 0.4 dir
+Back_Pain Limited_Mobility 0.6 dir
+Osteoarthritis Joint_Pain 0.5 dir
+Heart_Failure Shortness_of_Breath 0.4 dir
+Chest_Pain Heart_Attack 0.8 dir
+Heart_Attack Mortality 0.9 dir
+High_Cholesterol Atherosclerosis 0.6 dir
+Atherosclerosis Stroke 0.7 dir
+Diabetes Neuropathy 0.5 dir
+Neuropathy Pain 0.6 dir
+Pain Insomnia 0.4 dir
+Pain Depression 0.5 dir
+Pain Anxiety 0.5 dir
+Parkinsons Gait_Disturbance 0.6 dir
+Gait_Disturbance Disability 0.5 dir
+Fatigue Depression 0.4 dir
+Fatigue Anxiety 0.4 dir
+Asthma Fatigue 0.3 dir
+COPD Fatigue 0.3 dir
+Diabetes Heart_Disease 0.5 dir
+Obesity Heart_Disease 0.6 dir
+Heart_Disease Mortality 0.8 dir
+Hypertension Heart_Disease 0.6 dir
+
+# Item Definitions (ROLE format)
+ROLE Aging effect
+ROLE Allergy causer
+ROLE Allgeries causer
+ROLE Anemia causer
+ROLE Anxiety both
+ROLE Atherosclerosis causer
+ROLE Autoimmune_Disease causer
+ROLE Back_Pain both
+ROLE Blurred_Vision effect
+ROLE Chest_Pain both
+ROLE Chronic_Bronchitis both
+ROLE Confusion both
+ROLE Constipation causer
+ROLE COPD both
+ROLE Cough both
+ROLE Dehydration effect
+ROLE Depression both
+ROLE Diabetes both
+ROLE Disability effect
+ROLE Dizziness both
+ROLE Edema both
+ROLE Fatigue both
+ROLE Fever causer
+ROLE Gait_Disturbance causer
+ROLE Hair_Loss causer
+ROLE Hearing_Loss effect
+ROLE Heart_Attack causer
+ROLE Heart_Disease both
+ROLE Heart_Failure both
+ROLE High_Cholesterol causer
+ROLE Hypertension both
+ROLE Insomnia both
+ROLE Isolation both
+ROLE Itching effect
+ROLE Joint_Pain both
+ROLE Kidney_Disease both
+ROLE Limited_Mobility both
+ROLE Lung_Cancer effect
+ROLE Migraine causer
+ROLE Mortality effect
+ROLE Muscle_Weakness both
+ROLE Nausea causer
+ROLE Neuropathy causer
+ROLE Obesity both
+ROLE Osteoarthritis causer
+ROLE Pain both
+ROLE Palpitations causer
+ROLE Parkinsons causer
+ROLE Poor_Concentration effect
+ROLE Rash causer
+ROLE Seizures both
+ROLE Shortness_of_Breath both
+ROLE Sleep_Apnea causer
+ROLE Smoking causer
+ROLE Stroke both
+ROLE Suicide_Risk both
+ROLE Swelling causer
+ROLE Tremors both
+ROLE Urinary_Incontinence effect
+ROLE Vision_Loss both
+ROLE Vomiting both
+ROLE Weight_Gain causer
+ROLE Weight_Loss causer
+ROLE Wheezing both
