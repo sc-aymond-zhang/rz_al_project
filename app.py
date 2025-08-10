@@ -43,8 +43,7 @@ def load_graph_from_txt(file_path):
     vertices = list(graph.keys())
     return graph, vertices, roles
 
-documents_path = os.path.expanduser("~/Documents")
-file_path = os.path.join(documents_path, "project", "graph.txt")
+file_path = os.path.join(os.path.dirname(__file__), "graph.txt")
 assert os.path.exists(file_path), "Graph file does not exist!"
 graph, vertices, roles = load_graph_from_txt(file_path)
 
