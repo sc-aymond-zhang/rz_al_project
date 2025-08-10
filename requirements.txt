@@ -1,0 +1,4 @@
+dash
+networkx
+plotly
+gunicorn
